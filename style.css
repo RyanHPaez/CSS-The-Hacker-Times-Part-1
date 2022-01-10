@@ -1,1 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/* GENERAL */
+body {
+    background-color:white ;
+    font-family: 'Source Sans Pro';    
+}
+
+p {
+  font-size: 1em;
+  text-align: justify;
+  padding: 10px;
+}
+
+/* CONTAINER */
+.newspaper-container {
+  width: 700px;
+  margin: 3em auto;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 1px 1px 5px #ddd;
+  
+}
+
+/* HEADER */
+.date {
+  font-size: 0.8em;
+}
+header h1 {
+  font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h5 {
+    color:red;
+    text-align: left;
+    
+}
+
+
+/* NAVIGATION */
+nav {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+  margin: 1em 0;  
+  background: white;
+  
+}
+
+nav ul {  
+  margin: 0;
+  
+}
+nav li {
+  display: inline-block;
+  padding: 0 .5em;
+ 
+}
+nav a {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.more-articles{
+    display: flex;    
+    border-top: .5px dotted;
+    color:rgb(155, 154, 154);
+    
+}
+
+.more-articles section>h4 { 
+    color: rgb(7, 7, 7);    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+
+.container a {
+    color: lightgray;
+    text-decoration: none;
+  }
+  
+  h2 {
+    color: rgb(7, 7, 7);    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+  }
